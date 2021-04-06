@@ -1,0 +1,2 @@
+1) For first terminal username is 'jones', but for second terminal username is 'ajones'. If we commit both variants and show again - username for both will be 'ajones'
+2) For second terminal result will be 102, since we are not commit result for first terminal.
