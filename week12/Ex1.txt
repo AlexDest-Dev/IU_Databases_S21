@@ -1,0 +1,29 @@
+
+> HMSET "001" "FirstName" "Jane", "SecondName" "Doe"
+OK
+> HMSET "002" "FirstName" "John", "SecondName" "Doe"
+OK
+> HMSET "003" "FirstName" "Jane", "SecondName" "Smith"
+OK
+> HMSET "004" "FirstName" "John", "SecondName" "Smith"
+OK
+> HMSET "005" "FirstName" "Jane", "SecondName" "Jones"
+OK
+> HMSET "006" "FirstName" "John", "SecondName" "Smith"
+OK
+
+
+> HSET 1001 customer_numb "002", order_date "10.10.09", order_total 250.85
+3
+> HSET 1002 customer_numb "002", order_date "2.21.10", order_total 125.89
+3
+> HSET 1003 customer_numb "003", order_date "11.15.09", order_total 1567.99
+3
+> HSET 1004 customer_numb "004", order_date "11.22.09", order_total 180.92
+3
+> HSET 1005 customer_numb "004", order_date "12.15.09", order_total 564.00
+3
+> HSET 1006 customer_numb "006", order_date "10.08.09", order_total 85.00
+3
+> HSET 1008 customer_numb "006", order_date "12.29.09", order_total 109.12
+3
